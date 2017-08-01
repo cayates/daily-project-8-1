@@ -1,0 +1,35 @@
+.wrapper {
+        margin-left: 80px;
+        margin-right: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.employee {
+    width: 25%;  
+    padding-bottom: 50px;
+    text-align: center;
+}
+.locinfo {
+    list-style: none;
+    text-transform: capitalize;
+}
+.name {
+    text-transform: uppercase;
+}
+ul {
+    padding-left: 0;
+}
+.email {
+    text-transform: uppercase;
+}
+img {
+    width: 80%;
+}
+ul > li {
+    padding-bottom: 7px;
+}
