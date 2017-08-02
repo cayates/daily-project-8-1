@@ -14,7 +14,7 @@ function newCustomer(img, first, last, email, street, city, state, postcode, tel
 let post = `
     <div class = "employee">        
         <img src=${img}>
-        <h3 class = "name">${first} ${last}</h3>
+        <h3 class = "name">${first} ${last}</h3>    
         <span class = "email"> ${email}</span>
         <ul class="locinfo">
             <li>${street}</li>
@@ -25,4 +25,4 @@ let post = `
     </div>`;
 return post;
 }
-console.log(data.results);
+console.log(customerinfo.results);
